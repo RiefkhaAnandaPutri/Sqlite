@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/.SEMESTER 8/MOBILE ULANG/Sqlite/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/.SEMESTER 8/MOBILE ULANG/Sqlite/app/src/main/res/layout/activity_teman_baru.xml" value="0.12183383991894631" />
+        <entry key="..\:/.SEMESTER 8/MOBILE ULANG/Sqlite/app/src/main/res/layout/row_data_teman.xml" value="0.1" />
+        <entry key="..\:/.SEMESTER 8/MOBILE ULANG/Sqlite/app/src/main/res/menu/popupmenu.xml" value="0.22592592592592592" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
