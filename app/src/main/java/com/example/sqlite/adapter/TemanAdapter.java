@@ -17,16 +17,18 @@ import java.util.ArrayList;
 
 public class TemanAdapter extends RecyclerView.Adapter<TemanAdapter.TemanViewHolder> {
     private ArrayList<Teman> ListData;
+    private Context control;
 
     public TemanAdapter(ArrayList<Teman> listData) {
         this.ListData = listData;
     }
 
     @Override
-    public TemanViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public TemanAdapter.TemanViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutinf = LayoutInflater.from(parent.getContext());
         View view = layoutinf.inflate(R.layout.row_data_teman,parent,false);
         return new TemanViewHolder(view);
+        control = parent.getContext();
     }
 
     @Override
